@@ -11,10 +11,23 @@ header {
     vertical-align: top;
     padding-left: 1%;
     padding-right: 1%;
+    padding-bottom: 1%;
 }
 #datosPersonales {
     display:inline-block;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: small;
+    line-height: 50%;
+}
+.resaltado {
+    font-weight: bold;
+}
+#series {
+    background-color:brown ;
+    display: inline-block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    padding-left: 1%;
+    padding-right: 1%;
 
 }
