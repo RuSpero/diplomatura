@@ -1,4 +1,16 @@
+main {
+    
+}
 header {
     text-align: center;
+
+}
+#imagenPerfil {
+    background-color: darkgray;
+    display: inline-block;
+    vertical-align: top;
+}
+#datosPersonales {
+    display:inline-block;
 
 }
