@@ -1,16 +1,20 @@
 main {
-    
+    background-color: darkgray;
 }
 header {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
 
 }
 #imagenPerfil {
-    background-color: darkgray;
     display: inline-block;
     vertical-align: top;
+    padding-left: 1%;
+    padding-right: 1%;
 }
 #datosPersonales {
     display:inline-block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
 
 }
