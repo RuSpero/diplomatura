@@ -4,30 +4,41 @@ main {
 header {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
-
 }
+section {
+    text-align: center;
+}
+
 #imagenPerfil {
+    background-color:blueviolet ;
     display: inline-block;
     vertical-align: top;
     padding-left: 1%;
     padding-right: 1%;
     padding-bottom: 1%;
+    padding-top: 1%;
+    width: 211px;
+    height: 240px;
+    
 }
-#datosPersonales {
+
+.interes {
+    background-color:green;
     display:inline-block;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: small;
+    vertical-align: top;
     line-height: 50%;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    width: 211px;
+    height: 240px;
+    text-align: left;
 }
 .resaltado {
     font-weight: bold;
 }
-#series {
-    background-color:brown ;
-    display: inline-block;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: small;
-    padding-left: 1%;
-    padding-right: 1%;
 
-}
+
