@@ -12,7 +12,13 @@ header {
 section {
     text-align: center;
     width: 500px;
-   
+}
+footer {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    display:inline-block;
+    width: 430px;
+    text-align:center;
 }
 
 #imagenPerfil {
@@ -48,7 +54,7 @@ section {
     padding-right: 1%;
     padding-bottom: 1%;
     padding-top: 1%;
-    width: 422px;
+    width: 430px;
     text-align:justify;
 }
 .resaltado {
@@ -57,4 +63,3 @@ section {
 .principal{
     text-align: center;
 }
-
