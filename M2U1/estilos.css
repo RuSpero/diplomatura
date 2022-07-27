@@ -1,20 +1,31 @@
 body {
-    background-color: grey;
+    background-color: gray;
 }
 main {
     background-color: white;
     text-align: center;
 }
 header {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: linear-gradient(to bottom, grey, white);
+    font-family: 'Edu VIC WA NT Beginner', cursive;
     text-align: center;
 }
 section {
     text-align: center;
     width: 500px;
-   
 }
-
+footer {
+    font-family:  Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: grey;
+    background: linear-gradient(to top, grey, white);
+}
+i {
+    padding: 10px;
+}
 #imagenPerfil {
     display: inline-block;
     vertical-align: top;
@@ -26,7 +37,6 @@ section {
     height: 240px;
     
 }
-
 .interes {
     display:inline-block;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -38,10 +48,11 @@ section {
     padding-top: 1%;
     width: 211px;
     text-align: left;
+
 }
 .perfil {
     display:inline-block;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family:  Verdana, Geneva, Tahoma, sans-serif;
     font-size: small;
     vertical-align: top;
     padding-left: 1%;
@@ -49,17 +60,8 @@ section {
     padding-bottom: 1%;
     padding-top: 1%;
     width: 422px;
-    text-align:justify;
-}
-.perfil {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: small;
-    padding-left: 1%;
-    padding-right: 1%;
-    padding-bottom: 1%;
-    padding-top: 1%;
-    width: 422px;
-    text-align:justify;
+    text-align:left;
+ 
 }
 .resaltado {
     font-weight: bold;
@@ -67,4 +69,10 @@ section {
 .principal{
     text-align: center;
 }
-
+.sectores{
+    box-shadow: 0 0 5px gray;
+}
+.parrafoPerfil {
+    column-count: 3;
+    column-gap: 20px;
+}
